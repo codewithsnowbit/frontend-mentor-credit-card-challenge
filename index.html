@@ -21,9 +21,24 @@
   </style>
 </head>
 <body>
-  <div class="min-h-screen w-full absolute flex flex-row ">
-    <div class="h-full w-2/5">
-      <img src="images/bg-main-desktop.png" />
+  <div class="min-h-screen w-full flex flex-row space-x-8">
+    <div class="h-full w-2/5 relative top-0 left-0">
+      <img src="images/bg-main-desktop.png" class="h-full relative top-0 left-0"/>
+      <img src="images/bg-card-front.png" class="absolute top-[150px] left-[100px] shadow-2xl "/>
+      <img src="images/bg-card-back.png" class="absolute top-[400px] left-[200px] shadow-2xl"/>
+        <img src="images/card-logo.svg" class="absolute top-[170px] left-[130px] text-white "/>
+          <div class="tracking-widest text-white text-xl w-full absolute top-[290px] left-[130px] font-medium">
+            0000 0000 0000 0000
+          </div>
+            <div class="uppercase text-white text-sm tracking-wide absolute top-[330px] left-[130px]">
+              Jane Appleseed
+            </div>
+            <div class="uppercase text-white text-sm tracking-wide absolute top-[330px] left-[400px]">  
+              00/00
+            </div>
+            <div class="uppercase text-white text-sm tracking-wide absolute top-[499px] left-[520px]">  
+              000
+            </div>
     </div>
     <div class="flex justify-center items-center min-h-screen w-full">
       <div class="flex flex-col space-y-4 w-1/2">
